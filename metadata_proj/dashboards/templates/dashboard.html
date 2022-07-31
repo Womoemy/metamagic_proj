@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <!-- Navigation Bar -->
+  <nav>
+    <div class="searchfield">
+      <span id="searchicon">
+        <img src="images/search-normal.svg" alt="Search">
+      </span>
+      <input type="search" name="search" id="searchinput">
+    </div>
+    <div class="profile">
+      <span class="profile-photo">
+        <img src="" alt="">
+      </span>
+      <p class="profile-intro">
+        Hey, <span class="username"><!-- {{ user.username }} -->Demola</span>
+      </p>
+    </div>
+    <div class="notification">
+      <span class="bing">
+        <img src="" alt="Notifications">
+      </span>
+      <span class="user">
+        <img src="" alt="User">
+      </span>
+    </div>
+  </nav>
+  <!-- End Navigation Bar -->
+
+  <!-- Greeting and CTA buttons -->
+  <div class="welcome-wrapper">
+    <div class="greeting-div">
+      <h4>Good afternoon, Demola</h4>
+      <p>What would you like to do today?</p>
+    </div>
+    <div class="cta-btns">
+      <button class="primary-btn upload-btn">
+        <img src="" alt="Add Icon">
+        Upload File
+      </button>
+      <button class="secondary-btn ">
+        View Saved Metadata
+      </button>
+    </div>
+  </div>
+  <!-- End Greeting and CTA buttons -->
+
+  
+{% endblock %}

@@ -1,0 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+.searchfield {
+  background-image: url("images/search-normal.svg") no-repeat center;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 10px;
+}

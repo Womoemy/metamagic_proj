@@ -113,6 +113,9 @@ color: #196DDC;
 }
 #bottom_sidebar{
     height: 752px;
+    display: flex;
+    flex-direction: row;
+    background-color: red;
 }
 #support_section{
     display: flex;
@@ -147,5 +150,5 @@ top: 814px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    bottom: 188px;
+    bottom: 10px;
 }

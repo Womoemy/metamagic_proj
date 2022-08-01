@@ -160,6 +160,7 @@ color: #196DDC;
 #main_dashboard{
     position: relative;
     margin: 42px;
+    width: 100%;
 }
 #first{
     display: flex;
@@ -226,6 +227,7 @@ color: #196DDC;
     background: #196DDC;
     box-shadow: 0px 8px 10px 1px rgba(0, 0, 0, 0.14);
     border-radius: 4px;
+    justify-content: space-between;
 
 }
 #second{
@@ -256,9 +258,14 @@ color: #196DDC;
 }
 #third{
     margin-bottom: 91px;
+    box-shadow: 10px 8px 10px 8px rgba(0, 0, 0, 0.14);
 }
 #fourth{
-    border: 1px solid #D1E2F8
+    border: 1px solid #D1E2F8;
+    padding: 24px;
+    background-color: #FFFFFF;
+    
+    
 }
 #table_name{
     display: flex;
@@ -277,21 +284,27 @@ color: #196DDC;
     font-size: 16px;
 }
 #item_headings{
+    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     background: #FEE5D2;
     padding: 24px;
 }
+#item_headings>div{
+    width: 20%;
+}
 #items{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
+    padding-right: 24px;
+    padding-left: 24px;
     border-bottom: 1px solid #B2CEF3;
     background: #FFFFFF;
-    text-align: right;
-    align-items: baseline;
+    text-align: left;
+    align-items: center;
+    color: #0D376E;
 }
 
 #checkbox>input{
@@ -307,11 +320,22 @@ color: #196DDC;
     flex-direction: row;
     justify-content: space-between;
 }
-#export > div{
+
+#items>div{
+    width: 25%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.active{
+    background-color: #196DDC;
+    color: white;
     
-    width: 24px;
-    height: 24px;
+} 
+.active>p{
+    color: white;
 }
-#filesize{
-    width: 100px;
+#items>#filesize{
+    text-align: center;
 }
+
+

@@ -114,15 +114,15 @@ color: #196DDC;
 #bottom_sidebar{
     height: 752px;
     display: flex;
-    flex-direction: row;
-    background-color: red;
+    flex-direction: column;
+    justify-content: end;
+    
 }
 #support_section{
     display: flex;
 flex-direction: column;
 align-items: center;
 padding: 0px;
-position: absolute;
 width: 188px;
 height: 256px;
 left: 50px;
@@ -150,5 +150,4 @@ top: 814px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    bottom: 10px;
 }

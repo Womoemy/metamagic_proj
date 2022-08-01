@@ -1,0 +1,151 @@
+/* Metadata Library */
+
+*{
+    box-sizing: border-box;
+   padding:0px ;
+   margin: 0px;
+   font-family: 'IBM Plex Sans', sans-serif;
+}
+body{
+    width: 348px;
+    height: 1352px;
+}
+#logo{
+    position: relative;
+    width: 264px;
+    height: 56px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 42px;
+    margin-left: 42px;
+}
+
+#dashboard_details{
+    background-color: blue;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    
+}
+#user_profile{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    width: 172px;
+    height: 168px;
+}
+#top_sidebar{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#topthird{
+    background: blue;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height: 344px;
+}
+#profile_image{
+    width: 112px;
+    height: 112px;
+    border-radius: 112px;
+    border-top: 4px solid #FC7C1C;
+    border-left: 4px solid transparent;
+    border-right: 4px solid #FC7C1C;
+    border-bottom: 4px solid transparent;
+    padding: 5px;
+    margin: 4px;
+    align-self: center;
+}
+#profile_image img{
+    width: 92px;
+    height: 92px;
+    border-radius: 100%;
+}
+#username{
+    color: #196DDC;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+#jobtype{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #2A2A2A;
+}
+#second_part{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 348px;
+    height:246px;
+    margin-top: 40px;
+    margin-left: 48px;
+    
+}
+#details{
+    display: flex;
+    flex-direction: row;
+    align-self: baseline;
+    align-items:center;
+    width: 346px;
+    height: 46px;
+    color: #196DDC;
+
+}
+
+#icon{
+    margin: 8px;
+}
+#text{
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+color: #196DDC;
+}
+#bottom_sidebar{
+    height: 752px;
+}
+#support_section{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+position: absolute;
+width: 188px;
+height: 256px;
+left: 50px;
+top: 814px;
+}
+#support_image img{
+    width: 188px;
+    height: 188px;
+}
+#support_button input{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 32px;
+    margin-top: 24px;
+    width: 188px;
+    height: 48px;
+    border: 0px;
+    color: #FFFFFF;
+    background: #196DDC;
+    border-radius: 4px;
+}
+#logout{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    bottom: 188px;
+}
